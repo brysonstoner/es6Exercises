@@ -1,8 +1,9 @@
+import { Song } from './talkingHead';
 class LedZepSong extends Song {
 
   //edits go into the args of the constructor and super methods below
-  constructor(){
-    super();
+  constructor(title){
+    super("Led Zeppelin", title);  //in this file, Led Zeppelin is the only band
   }
 }
 
